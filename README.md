@@ -13,3 +13,12 @@ This application automatically processes interview recordings, transcribes them 
 - OpenAI API key
 - Gmail account for sending emails
 - wkhtmltopdf (for PDF generation)
+## Installation
+- Clone this repository
+- Install dependencies:
+pip install -r requirements.txt
+- Install wkhtmltopdf:
+    - Windows: Download from wkhtmltopdf.org
+    - macOS: brew install wkhtmltopdf
+    - Linux: sudo apt-get install wkhtmltopdf
+- Copy .env.sample to .env and fill in your API key and email credentials
