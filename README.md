@@ -25,4 +25,11 @@ pip install -r requirements.txt
 ## Configuration
 Create a .env file with the following information:
 
+```bash
+    OPENAI_API_KEY=your_openai_api_key_here
+    EMAIL_SENDER=your_gmail_address@gmail.com
+    EMAIL_PASSWORD=your_gmail_app_password
+    EMAIL_RECIPIENT=recipient@example.com
+```
 
+For Gmail, you need to use an App Password instead of your regular password. See .env.sample for instructions.
