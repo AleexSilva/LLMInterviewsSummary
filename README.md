@@ -22,3 +22,7 @@ pip install -r requirements.txt
     - macOS: brew install wkhtmltopdf
     - Linux: sudo apt-get install wkhtmltopdf
 - Copy .env.sample to .env and fill in your API key and email credentials
+## Configuration
+Create a .env file with the following information:
+
+
