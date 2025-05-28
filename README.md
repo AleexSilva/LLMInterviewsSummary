@@ -46,3 +46,11 @@ For Gmail, you need to use an App Password instead of your regular password. See
 
 4. Check the "Output" folder for the generated files
 
+## Output
+
+The script generates the following files for each processed interview:
+
+- HTML and PDF versions of detailed minutes
+- HTML and PDF versions of a concise summary
+- Email with the summary and minutes attached
+
