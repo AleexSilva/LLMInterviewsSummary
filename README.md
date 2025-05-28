@@ -54,3 +54,8 @@ The script generates the following files for each processed interview:
 - HTML and PDF versions of a concise summary
 - Email with the summary and minutes attached
 
+## Troubleshooting
+
+- If the script can't find today's recording, check that the filename starts with today's date (YYYY-MM-DD).
+- If PDF conversion fails, make sure wkhtmltopdf is properly installed and accessible in your PATH.
+- For email issues, ensure your Gmail account has "Less secure app access" enabled or that you're using an App Password.
