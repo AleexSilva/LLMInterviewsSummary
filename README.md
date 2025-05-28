@@ -33,3 +33,16 @@ Create a .env file with the following information:
 ```
 
 For Gmail, you need to use an App Password instead of your regular password. See .env.sample for instructions.
+
+## Usage
+
+1. Place your recording files in a folder named "Recordings" in the project directory
+2. Make sure recording filenames start with today's date in YYYY-MM-DD format
+3. Run the script:
+
+    ```bash 
+    python code/meeting_recorder.py
+    ```
+
+4. Check the "Output" folder for the generated files
+
