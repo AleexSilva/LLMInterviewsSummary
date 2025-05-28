@@ -8,3 +8,8 @@ This application automatically processes interview recordings, transcribes them 
 - Analysis of transcripts to generate minutes and summaries
 - Formatted output as HTML and PDF
 - Automatic email delivery of results
+## Requirements
+- Python 3.8+
+- OpenAI API key
+- Gmail account for sending emails
+- wkhtmltopdf (for PDF generation)
